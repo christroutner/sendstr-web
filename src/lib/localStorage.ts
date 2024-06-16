@@ -8,7 +8,7 @@ export const getRelays = (): SettingsRelay[] =>
     window.localStorage.getItem("relays") ||
       JSON.stringify([
         {
-          url: "wss://relay.sendstr.com",
+          url: "wss://nostr-relay.psfoundation.info",
           enabled: true,
         },
       ]),
